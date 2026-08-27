@@ -19,9 +19,10 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install Dependencies & Build Web
+      - name: Install Dependencies & Capacitor CLI
         run: |
           npm install
+          npm install --save-dev @capacitor/cli @capacitor/core
           npm run build
 
       - name: Setup Java 17
@@ -33,7 +34,7 @@ jobs:
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
-      - name: Add Capacitor Android platform (if missing)
+      - name: Add Capacitor Android platform
         run: |
           npx cap add android || true
           npx cap sync android
