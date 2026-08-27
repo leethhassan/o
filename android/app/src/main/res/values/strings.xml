@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">مستنداتي</string>
+    <string name="app_tagline">كل مستنداتك في مكان واحد</string>
+    <string name="scan_document">📷 تصوير مستند</string>
+    <string name="pick_images">🖼️ اختيار صور</string>
+    <string name="create_pdf">📄 إنشاء PDF</string>
+    <string name="recent_documents">المستندات الأخيرة</string>
+    <string name="no_documents">لا توجد مستندات بعد</string>
+    <string name="create_first_doc">أنشئ أول مستند</string>
+    <string name="search_hint">ابحث باسم المستند أو التصنيف...</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_documents">المستندات</string>
+    <string name="nav_categories">التصنيفات</string>
+    <string name="nav_settings">الإعدادات</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "مستنداتي",
+  "description": "تطبيق عربي لإدارة المستندات والصور وتحويلها إلى ملفات PDF وتنظيمها محلياً",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
