@@ -19,10 +19,11 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install Dependencies & Build Web
+      - name: Install Dependencies, Capacitor CLI & Android Platform
         run: |
           npm install
           npm install --save-dev @capacitor/cli @capacitor/core
+          npm install @capacitor/android
           npm run build
 
       - name: Setup Java 17
